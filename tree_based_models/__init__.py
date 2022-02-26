@@ -1,3 +1,4 @@
 """
-This is a module containing Decision Tree and Random Forest From Scratch
+This is a package containing Decision Tree and Random Forest From Scratch
+Developped in Course Optimization for Data Science
 """

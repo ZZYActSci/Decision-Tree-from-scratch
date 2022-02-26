@@ -1,5 +1,6 @@
 """
-This is decision tree built from scratch. Note the random_forest module is built upon this module
+This is decision tree built from scratch. Optimization supports Gini and Entropy. 
+Note the random_forest module is built upon this module
 """
 
 from scipy import stats

@@ -1,3 +1,4 @@
+##################################
 from tree_based_models.decision_tree import DecisionTree
 import numpy as np
 from numpy.random import randint
@@ -10,7 +11,7 @@ def Bootstrap(y,n_estimators):
     indices = randint(0,high=num_instances,size=(n_estimators,num_instances))
     return indices
 
-
+#################
 class RandomForest:
     def __init__(self,n_estimators = 100, criterion = 'gini', max_depth = None, min_samples_split = 5, 
                  max_features = 'sqrt', random_state = None):
